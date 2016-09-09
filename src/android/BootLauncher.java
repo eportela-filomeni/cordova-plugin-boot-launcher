@@ -8,7 +8,7 @@ public class BootLauncher extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Intent serviceIntent = new Intent(context, io.cordova.myapp31cbf2.CordovaApp.class);
+        Intent serviceIntent = new Intent(context, 07010616.CordovaApp.class);
         serviceIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(serviceIntent);
     }
